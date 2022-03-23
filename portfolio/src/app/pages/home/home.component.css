@@ -1,0 +1,23 @@
+.main{
+  width:100vw;
+  height: 87.5vh;
+  color:white;
+  background: url(../../../assets/home.png);
+  background-repeat: no-repeat;
+  background-size:cover;
+  padding: 50px;
+}
+
+.iam{
+  font-size: 50px;
+}
+
+.code{
+  color:#F77273;
+  display: block;
+  margin: 10px 0;
+}
+
+.name{
+  margin: 20px 0;
+}

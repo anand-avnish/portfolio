@@ -1,0 +1,75 @@
+/* .circle {
+  border-radius: 50%;
+  position: absolute;
+  animation: fade 1s ease-in-out forwards;
+}
+
+@keyframes fade {
+  100% {
+    opacity: 0;
+    display: none;
+  }
+}
+
+.trail {
+  position: absolute;
+  height: 6px; width: 6px;
+  border-radius: 3px;
+  background: teal;
+} */
+
+.main {
+  margin: 0;
+  padding: 0;
+  /* height: 100vh;
+  width: 100vw;
+  background: #000 !important; */
+  overflow: hidden;
+}
+
+.pointer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  pointer-events: none;
+  box-sizing: border-box;
+  transition: 0.2s;
+}
+
+.pointer1 {
+  transition: 0.05s;
+  width: 20px;
+  height: 20px;
+  background: rgba(247, 114, 115, 1);
+}
+
+.pointer2 {
+  transition: 0.1s;
+  width: 18px;
+  height: 18px;
+  background: rgba(247, 114, 115, 0.8);
+}
+
+.pointer3 {
+  transition: 0.15s;
+  width: 16px;
+  height: 16px;
+  background: rgba(247, 114, 115, 0.6);
+}
+
+.pointer4 {
+  transition: 0.2s;
+  width: 14px;
+  height: 14px;
+  background: rgba(247, 114, 115, 0.4);
+}
+
+.pointer5 {
+  transition: 0.25s;
+  width: 12px;
+  height: 12px;
+  background: rgba(247, 114, 115, 0.2);
+}
