@@ -10,10 +10,13 @@ const LAYOUT_ROUTES: Routes = [
 
 
 			{ path: "", redirectTo: "home", pathMatch: "full", },
-
       {
         path: "home",
         loadChildren: () => import('src/app/pages/home/home.module').then(m => m.HomeModule)
+      },
+      {
+        path: "about",
+        loadChildren: () => import('src/app/pages/about/about.module').then(m => m.AboutModule)
       },
 			// {
 			// 	path: "patient",

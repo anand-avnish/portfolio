@@ -1,6 +1,6 @@
 .main{
   width:100vw;
-  height: 87.5vh;
+  height: 89vh;
   color:white;
   background: url(../../../assets/home.png);
   background-repeat: no-repeat;
@@ -20,4 +20,8 @@
 
 .name{
   margin: 20px 0;
+}
+
+.txtt{
+  color:#F77273;
 }

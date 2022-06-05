@@ -2,6 +2,10 @@
   background-color:#111111 !important;
 }
 
+.header{
+  height: 11vh;
+}
+
 .b-example-divider {
   height: 3rem;
   background-color: rgba(0, 0, 0, .1);

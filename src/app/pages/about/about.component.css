@@ -1,0 +1,45 @@
+.main{
+  background-color: #111111;
+  /* height:89vh; */
+  width:100%;
+  padding:20px;
+  color:white;
+}
+
+.id{
+  font-size: 3.5em;
+  color:#F77273;
+}
+
+.hash{
+  color:white;
+}
+
+.class{
+  color:#F77273;
+}
+
+.name{
+  width:100%;
+}
+
+.cont{
+  width:70%;
+}
+
+.img{
+  width: 30%;
+}
+
+.abt{
+  color:#9ACE6A;
+  padding-left: 70px;
+  text-align: justify;
+}
+
+.attributes{
+  margin-left: 70px;
+  font-weight: bold;
+  color:#7A9FEC;
+  font-size: large;
+}
